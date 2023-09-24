@@ -1,0 +1,159 @@
+body {
+    font-family:'Courier New', Courier, monospace;
+    font-size: 90%;
+    font-weight: bolder;
+    color: #666;
+    justify-content: center;
+    align-items: center;
+    background-image: url('mainbg.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 20px auto auto auto;
+    display: block;
+}
+.box {
+    max-width: 800px;
+    padding: 20px;
+    background: #ffffff;
+	margin: auto;
+	padding: 30px 60px;
+	border-radius: 40px;
+	box-shadow: 0 3px 26px 0 rgba(0,0,0,0.20);
+    background-image: url('boxbg.jpeg');
+    opacity: 1;
+    background-repeat: no-repeat;
+    background-position: fixed;
+    background-size: cover;
+    background-position: center;
+    border: 5px double;
+}
+h1{
+    font-family: 'Pinyon Script', cursive;
+    text-align: center;
+    font-size: 50px;
+    margin: 10px auto 10px auto;
+    padding: 0 0 7px 0;
+    border-bottom: 5px dotted;
+}
+li {
+    list-style-image: url("rosebullet.png");
+    text-shadow: 0 3px 26px 0 rgba(0,0,0,0.20);
+    line-height: 1.6em;
+}
+
+table {
+    border-spacing: 1px;
+    justify-content: center;
+    display: flex;
+    margin: auto;
+}
+
+th, td {
+    padding: 5px 10px 5px 10px;
+    border-spacing: 0px;
+    font-size: 90%;
+    margin: 0px;
+}
+        
+th, td {
+    text-align: left;
+    background-color: #f5ecce;
+    border-top: 1px solid #34240e;
+    border-bottom: 2px solid #34240e;
+    border-right: 2px solid #34240e;
+    border-left: 2px solid #34240e;
+    
+}
+
+tr.head th {
+    color: #fff;
+    background-color: #717fc5;
+    border-bottom: 2px solid #34240e;
+    border-right: 2px solid #34240e;
+    border-top: 2px solid #34240e;
+    text-align: center;
+    letter-spacing: 0.15em;
+}
+
+tr.even td, tr.even th {
+    background-color: #d6b990;
+}
+
+tr.head th:first-child {
+    -webkit-border-top-left-radius: 5px;
+    -moz-border-radius-topleft: 5px;
+    border-top-left-radius: 5px;
+}
+
+tr.head th:last-child {
+    -webkit-border-top-right-radius: 5px;
+    -moz-border-radius-topright: 5px;
+    border-top-right-radius: 5px;
+}
+
+.center{
+    justify-content: center;
+    margin: auto auto auto 58px;
+}
+
+fieldset {
+    width: 300px;
+    margin-top: 20px;
+    border: 1px solid #d6d6d6;
+    background-color: #ffffff;
+    line-height: 1.3em;
+    border-radius: 20px;
+    padding-left: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+fieldset .legend {
+    font-style: italic;
+    color: #666666;
+    text-indent: 50px;
+}
+
+fieldset span {
+    border-bottom: 2px dashed;
+}
+
+input[type="text"] {
+    width: 120px;
+    border: 1px solid #d6d6d6;
+    padding: 2px;
+    outline: none;
+}
+
+input[type="text"]:focus,
+input[type="text"]:hover {
+    background-color: #d0e2f0;
+    border: 1px solid #999999;
+}
+
+input[type="submit"] {
+    border: 1px solid #006633;
+    background-color: #009966;
+    color: #ffffff;
+    border-radius: 5px;
+    padding: 5px;
+    margin-top: 10px;
+}
+
+input[type="submit"]:hover {
+    border: 1px solid #006633;
+    background-color: #00CC33;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.title {
+    float: left;
+    width: 160px;
+    clear: left;
+}
+.submit {
+    width: 310px;
+    text-align: right;
+}
